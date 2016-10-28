@@ -1,2 +1,3 @@
-# bombmanual-swedish
-Swedish translation of the Bomb Defusal Manual for the game Keep Talking And Nobody Explodes
+Svensk översättning av bombmanualen till spelet
+Keep Talking And Nobody Explodes
+

@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Keep Talking and Nobody Explodes v. 1</title>
+    <meta name="viewport" content="initial-scale=1"> 
+
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link href='http://fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet' type='text/css'>
+	<link rel="icon" href="favicon.ico" type="image/png">
+	<link rel="apple-touch-icon-precomposed" href="apple-touch-icon-precomposed.png">
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-48421906-2', 'auto');
+	  ga('send', 'pageview');
+
+	</script>
+</head>
+<body>
+    <div id="ManualContent">
+    <div class="section">
+    
+    <div class="page section-title">
+		<div style="position:relative; height:0;">&nbsp;</div> 
+		<div class="page-footer absolute-footer no-auto-footer">Tredje revisionen, översättning av Tobias Hellgren</div>
+        <div class="page-content">
+			<img src="img/ktane-logo.png" alt="Keep Talking and Nobody Explodes" style="margin: 1em auto .2em; width: 42em;" />
+    	    <h1 style="font-size: 1em; font-weight: normal; margin: 3.85em auto 0;"><span style="font-size: 7em; line-height: 1.13em;">MANUAL FÖR</span><br /><span style="font-size: 5em; line-height: 0.5em;">DESARMERING AV</span><br /><span style="font-size: 9.2em; line-height: 1.1em;">BOMBER</span></h1>
+			<h2 style="margin: 1.2em auto; text-decoration: none; line-height: 1em; font-size: 2.8em;">Version 1							<br />
+				<span style="font-size: 0.57em; font-weight: normal;">Verifieringskod: 241</span>
+						</h2>
+        </div>
+		<div class="page-footer relative-footer no-auto-footer">Tredje revisionen, översättning av Tobias Hellgren</div>
+    </div>
+</div><div class="section">
+    <div class="section">
+    <div class="page section-title">
+        		<div class="page-header">
+			<span class="page-header-doc-title">Keep Talking and Nobody Explodes v. 1</span>
+			<span class="page-header-section-title">Introduktion</span>
+		</div>
+        <div class="page-footer absolute-footer"></div>
+        <div class="page-content">
+            <div class="vertical-spacer"></div>
+            
+            <p style="font-style:italic;">Välkommen till en farlig och utmanande värld av bombdesarmering.</p>
+            <p style="font-style:italic;">Studera denna manual väl; <em style="font-style:italic;">du är experten</em>. Bland dessa sidor finner du<br />allt man behöver veta för att desarmera även den lömskaste av bomber.<br /><br />Och kom ihåg: Ett misstag och allt är över!</p>
+        </div>
+        <div class="page-footer relative-footer"></div>
+    </div>
+
+    <div class="page">
+        		<div class="page-header">
+			<span class="page-header-doc-title">Keep Talking and Nobody Explodes v. 1</span>
+			<span class="page-header-section-title">Desarmera bomber</span>
+		</div>
+        <div class="page-footer absolute-footer"></div>
+        <div class="page-content">
+            <h1>Desarmera bomber</h1>
+            
+			<p>En bomb kommer att explodera när dess nedräkningstimer når 0:00 eller när för många missar (strikes) har begåtts. Det enda sättet att desarmera en bomb är att stänga av alla dess moduler innan nedräkningstimern löpt ut.</p>
+			
+			<div class="bomb-diagram">
+				<span class="diagram-label">Exempelbomb</span><br />
+				<table><tr><td><img src="img/Bomb.svg" class="bomb-diagram-front" /><br />Framsida</td><td><img src="img/BombSide.svg" class="bomb-diagram-side" /><br />Sida</td></tr></table>
+			</div>
+			
+			<h3>Moduler</h3>
+			<p>Varje bomb kommer att innehålla upp till 11 moduler som måste stängas ned. Varje modul är självständig och kan stängas ned i valfri ordning.</p>
+			<p>Instruktioner för att stänga ned moduler finns i Sektion 1. "Känsliga" moduler utgör specialfall och beskrivs under Sektion 2.</p>
+			
+            
+            <h3>Missar</h3>
+			<div class="timer-diagram">Missindikatorn<br /><img src="img/TimerComponent.svg"/></div>
+            <p>När Desarmeraren gör ett misstag kommer bomben att registrera en miss som kommer att synas på indikatorn ovanför nedräkningstimern. Bomber med en missindikator kommer att explodera på tredje missen. Timern kommer att börja räkna ned fortare när en miss har registrerats.</p>
+			<p>Om det inte finns en missindikator ovanför nedräkningstimern kommer bomben explodera efter första missen, utan att lämna plats för misstag.</p>
+
+			<h3>Samla information</h3>
+			<p>Vissa instruktioner kräver specifik information om bomben, som till exempel serienumret. Denna typ av information kan vanligtvis finnas på ovansidan, botten eller sidorna på bombskalet. Se Bilaga A, B och C för identifieringsinstruktioner som är värdefulla vid avstängning av vissa moduler.</p>
+        </div>
+        <div class="page-footer relative-footer"></div>
+    </div>
+</div>
+<div class="section">
+    <div class="page section-title">
+        		<div class="page-header">
+			<span class="page-header-doc-title">Keep Talking and Nobody Explodes v. 1</span>
+			<span class="page-header-section-title">Sektion 1: Moduler</span>
+		</div>
+        <div class="page-footer absolute-footer"></div>
+        <div class="page-content">
+            <div class="vertical-spacer"></div>
+		    <img src="img/Component.svg" class="diagram" />
+			<div class="new-block-formatting-context">
+				<h1>Sektion 1: Moduler</h1>
+				<p>Moduler identifieras med hjälp av en LED-lampa på dess övre högra hörn. När denna lyser grönt har modulen stängts av.</p>
+				<p>Alla moduler måste stängas av för att desarmera bomben.</p>
+			</div>
+        </div>
+        <div class="page-footer relative-footer"></div>
+    </div>
+</div>
+<div class="section">
+    <div class="page">
+        		<div class="page-header">
+			<span class="page-header-doc-title">Keep Talking and Nobody Explodes v. 1</span>
+			<span class="page-header-section-title">Kablar</span>
+		</div>
+        <div class="page-footer absolute-footer"></div>
+        <div class="page-content">
+    	    <img src="img/WireComponent.svg" class="diagram" />
+            <h2>Gällande kablar</h2>
+            <p class="flavour-text">
+                Kablar är elektronikens livsnerver! Eller, vänta- elektriciteten är dess livsnerver. Kablar är snarare dess artärer. Eller venerna? Spelar roll…</p>
+
+			<ul>
+				<li>En kabelmodul kan ha 3-6 kablar på sig.</li>
+				<li>Bara den <em>enda rätta</em> kabeln måste kapas för att avväpna modulen.</li>
+				
+				<li>Kabelordningen börjar med den första översta.</li>
+			</ul>
+
+			<table>
+				<tr><td><strong><em>3 kablar:</em></strong>	<br />Om det inte finns några röda kablar, kapa den andra kabeln.<br />Om sista kabeln är vit, kapa den sista kabeln.<br />Om det finns fler än en blå kabel, kapa den sista blå kabeln.<br />Annars kapa den sista kabeln.</tr><tr><td><strong><em>4 kablar:</em></strong><br />Om det finns fler än en röd kabel och sista siffran i serienumret är udda, kapa den sista röda kabeln.<br />Om den sista kabeln är gul och det finns inga röda kablar, kapa den första kabeln.<br />Om det finns endast en blå kabel, kapa första kabeln.<br />Om det finns fler än en gul kabel, kapa sista kabeln.<br />Kapa annars den andra kabeln.</tr><tr><td><strong><em>5 kablar:</em></strong><br />Om den sista kabeln är svart och sista siffran i serienumret är udda, kapa den fjärde kabeln.<br />Om det finns endast en röd kabel och det finns fler än en gul kabel, kapa den första kabeln.<br />Om det inte finns några svarta kablar, kapa den andra kabeln.<br />Kapa annars den första kabeln.</tr><tr><td><strong><em>6 kablar:</em></strong><br />Om det inte finns några gula kablar och den sista siffran i serienumret är udda, kapa den tredje kabeln.<br />Om det finns endast en gul kabel och det finns fler än en vit kabel, kapa den fjärde kabeln.<br />Om det inte finns några röda kablar, kapa den sista kabeln.<br />Kapa annars den fjärde kabeln.</tr>			</table>
+        </div>
+        <div class="page-footer relative-footer"></div>
+    </div>
+</div>
+<div class="section">
+    <div class="page">
+        		<div class="page-header">
+			<span class="page-header-doc-title">Keep Talking and Nobody Explodes v. 1</span>
+			<span class="page-header-section-title">Knappen</span>
+		</div>
+        <div class="page-footer absolute-footer"></div>
+        <div class="page-content">
+    	    <img src="img/ButtonComponent.svg" class="diagram" />
+            <h2>Gällande knappar</h2>
+            <p class="flavour-text">Du kanske tycker att en knapp som säger åt dig att trycka på den är ganska rättfram. Det är precis den sortens tankar som får folk att explodera.</p>
+            <p class="appendix-reference">Se Bilaga A för hänvisningar till indikatoridentifiering.<br />Se Bilaga B för hänvisningar till batteriidentifiering.</p>		    <p>Följ dessa regler i den ordning de är skrivna. Utför den första åtgärd som gäller:</p>
+		    <ol>
+		    	<li>Om knappen är blå och det står "Abort" på den, håll ned knappen och läs sedan "Att släppa en nedtryckt knapp".</li><li>Om det finns fler än 1 batteri på bomben och det står "Detonate" på knappen, tryck och släpp den omedelbart.</li><li>Om knappen är vit och det finns en lysande indikator med etiketten "CAR", håll ned knappen och läs sedan "Att släppa en nedtryckt knapp".</li><li>Om det finns fler än 2 batterier på bomben och det finns en lysande indikator med etiketten "FRK", tryck och släpp knappen omedelbart.</li><li>Om knappen är gul, håll ned knappen och läs sedan "Att släppa en nedtryckt knapp".</li><li>Om knappen är röd och det står "Hold" på den, tryck och släpp knappen omedelbart.</li><li>Om inget av ovan gäller, håll knappen och läs sedan "Att släppa en nedtryckt knapp".</li>            </ol>
+		    <h3>Att släppa en nedtryckt knapp</h3>
+            <p>När du börjar hålla ned knappen kommer en färgad remsa att lysa upp på modulens högra sida. Beroende på vilken färg den är måste du släppa knappen under en specifik tidpunkt:</p>
+            <ul>
+           		<li><em>Blå remsa:</em> släpp när nedräkningstimern visar en 4:a var som helst.</li><li><em>Vit remsa:</em> släpp när nedräkningsstimern visar en 1:a var som helst.</li><li><em>Gul remsa:</em> släpp när nedräkningstimern har en 5:a var som helst.</li><li><em>Alla andra färger:</em> släpp när nedräkningstimern visar en 1:a var som helst.</li>            </ul>
+        </div>
+        <div class="page-footer relative-footer"></div>
+    </div>
+</div><div class="section">
+	<div class="page">
+        		<div class="page-header">
+			<span class="page-header-doc-title">Keep Talking and Nobody Explodes v. 1</span>
+			<span class="page-header-section-title">Knappsatser</span>
+		</div>
+	    <div class="page-footer absolute-footer"></div>
+	    <div class="page-content">
+		    <img src="img/KeypadComponent.svg" class="diagram" />
+		    <h2>Gällande knappsatser</h2>
+		    <p class="flavour-text">
+			    Jag vet inte vad dessa symboler innebär, men jag misstänker att de har något att göra med det ockulta.
+		    </p>
+			<ul>
+				<li>
+					Endast en kolumn nedan har alla fyra symboler från knappsatsen.
+				</li>
+				<li>
+					Tryck på de fyra knapparna i den ordning som deras symboler dyker upp i den kolumnen, från toppen till botten.
+				</li>
+			</ul>
+			<br/>
+			<br/>
+			<table class="keypad-table">
+				<tr><td class="keypad-table-column"><img class="keypad-symbol-image" src="img/symbols/28-balloon.png"></img></td><td class="keypad-table-spacer"></td><td class="keypad-table-column"><img class="keypad-symbol-image" src="img/symbols/16-euro.png"></img></td><td class="keypad-table-spacer"></td><td class="keypad-table-column"><img class="keypad-symbol-image" src="img/symbols/1-copyright.png"></img></td><td class="keypad-table-spacer"></td><td class="keypad-table-column"><img class="keypad-symbol-image" src="img/symbols/11-six.png"></img></td><td class="keypad-table-spacer"></td><td class="keypad-table-column"><img class="keypad-symbol-image" src="img/symbols/24-pitchfork.png"></img></td><td class="keypad-table-spacer"></td><td class="keypad-table-column"><img class="keypad-symbol-image" src="img/symbols/11-six.png"></img></td></tr><tr><td class="keypad-table-column"><img class="keypad-symbol-image" src="img/symbols/13-at.png"></img></td><td class="keypad-table-spacer"></td><td class="keypad-table-column"><img class="keypad-symbol-image" src="img/symbols/28-balloon.png"></img></td><td class="keypad-table-spacer"></td><td class="keypad-table-column"><img class="keypad-symbol-image" src="img/symbols/8-pumpkin.png"></img></td><td class="keypad-table-spacer"></td><td class="keypad-table-column"><img class="keypad-symbol-image" src="img/symbols/21-paragraph.png"></img></td><td class="keypad-table-spacer"></td><td class="keypad-table-column"><img class="keypad-symbol-image" src="img/symbols/4-smileyface.png"></img></td><td class="keypad-table-spacer"></td><td class="keypad-table-column"><img class="keypad-symbol-image" src="img/symbols/16-euro.png"></img></td></tr><tr><td class="keypad-table-column"><img class="keypad-symbol-image" src="img/symbols/30-upsidedowny.png"></img></td><td class="keypad-table-spacer"></td><td class="keypad-table-column"><img class="keypad-symbol-image" src="img/symbols/23-leftc.png"></img></td><td class="keypad-table-spacer"></td><td class="keypad-table-column"><img class="keypad-symbol-image" src="img/symbols/26-cursive.png"></img></td><td class="keypad-table-spacer"></td><td class="keypad-table-column"><img class="keypad-symbol-image" src="img/symbols/31-bt.png"></img></td><td class="keypad-table-spacer"></td><td class="keypad-table-column"><img class="keypad-symbol-image" src="img/symbols/31-bt.png"></img></td><td class="keypad-table-spacer"></td><td class="keypad-table-column"><img class="keypad-symbol-image" src="img/symbols/27-tracks.png"></img></td></tr><tr><td class="keypad-table-column"><img class="keypad-symbol-image" src="img/symbols/12-squigglyn.png"></img></td><td class="keypad-table-spacer"></td><td class="keypad-table-column"><img class="keypad-symbol-image" src="img/symbols/26-cursive.png"></img></td><td class="keypad-table-spacer"></td><td class="keypad-table-column"><img class="keypad-symbol-image" src="img/symbols/5-doublek.png"></img></td><td class="keypad-table-spacer"></td><td class="keypad-table-column"><img class="keypad-symbol-image" src="img/symbols/7-squidknife.png"></img></td><td class="keypad-table-spacer"></td><td class="keypad-table-column"><img class="keypad-symbol-image" src="img/symbols/22-rightc.png"></img></td><td class="keypad-table-spacer"></td><td class="keypad-table-column"><img class="keypad-symbol-image" src="img/symbols/14-ae.png"></img></td></tr><tr><td class="keypad-table-column"><img class="keypad-symbol-image" src="img/symbols/7-squidknife.png"></img></td><td class="keypad-table-spacer"></td><td class="keypad-table-column"><img class="keypad-symbol-image" src="img/symbols/3-hollowstar.png"></img></td><td class="keypad-table-spacer"></td><td class="keypad-table-column"><img class="keypad-symbol-image" src="img/symbols/15-meltedthree.png"></img></td><td class="keypad-table-spacer"></td><td class="keypad-table-column"><img class="keypad-symbol-image" src="img/symbols/5-doublek.png"></img></td><td class="keypad-table-spacer"></td><td class="keypad-table-column"><img class="keypad-symbol-image" src="img/symbols/21-paragraph.png"></img></td><td class="keypad-table-spacer"></td><td class="keypad-table-column"><img class="keypad-symbol-image" src="img/symbols/24-pitchfork.png"></img></td></tr><tr><td class="keypad-table-column"><img class="keypad-symbol-image" src="img/symbols/9-hookn.png"></img></td><td class="keypad-table-spacer"></td><td class="keypad-table-column"><img class="keypad-symbol-image" src="img/symbols/9-hookn.png"></img></td><td class="keypad-table-spacer"></td><td class="keypad-table-column"><img class="keypad-symbol-image" src="img/symbols/30-upsidedowny.png"></img></td><td class="keypad-table-spacer"></td><td class="keypad-table-column"><img class="keypad-symbol-image" src="img/symbols/20-questionmark.png"></img></td><td class="keypad-table-spacer"></td><td class="keypad-table-column"><img class="keypad-symbol-image" src="img/symbols/19-dragon.png"></img></td><td class="keypad-table-spacer"></td><td class="keypad-table-column"><img class="keypad-symbol-image" src="img/symbols/18-nwithhat.png"></img></td></tr><tr><td class="keypad-table-column"><img class="keypad-symbol-image" src="img/symbols/23-leftc.png"></img></td><td class="keypad-table-spacer"></td><td class="keypad-table-column"><img class="keypad-symbol-image" src="img/symbols/20-questionmark.png"></img></td><td class="keypad-table-spacer"></td><td class="keypad-table-column"><img class="keypad-symbol-image" src="img/symbols/3-hollowstar.png"></img></td><td class="keypad-table-spacer"></td><td class="keypad-table-column"><img class="keypad-symbol-image" src="img/symbols/4-smileyface.png"></img></td><td class="keypad-table-spacer"></td><td class="keypad-table-column"><img class="keypad-symbol-image" src="img/symbols/2-filledstar.png"></img></td><td class="keypad-table-spacer"></td><td class="keypad-table-column"><img class="keypad-symbol-image" src="img/symbols/6-omega.png"></img></td></tr>			</table>
+	    </div>
+        <div class="page-footer relative-footer"></div>
+    </div>
+</div><div class="section">
+    <div class="page">
+        		<div class="page-header">
+			<span class="page-header-doc-title">Keep Talking and Nobody Explodes v. 1</span>
+			<span class="page-header-section-title">Simon Says</span>
+		</div>
+        <div class="page-footer absolute-footer"></div>
+        <div class="page-content">
+    	    <img src="img/SimonComponent.svg" class="diagram" />
+            <h2>Gällande Simon Says</h2>
+            <p class="flavour-text">Det här är precis som den klassiska elektroniska leksaken med samma namn, där man måste trycka på färger i ordningen som de dyker upp. Förutom att det här förmodligen är en billig kopia.</p>
+            
+			<ol>
+				<li>En av de fyra färgade knapparna kommer att blinka till.</li>
+				<li>Genom att använda tabellen nedan, tryck på knappen med motsvarande färg.</li>
+				<li>Den första knappen kommer att blinka till, följt av en annan. Upprepa denna sekvens i följd genom att kartlägga färgerna med tabellen.</li>
+				<li>Sekvensen kommer att utökas med ytterligare ett steg för varje korrekt knapptryckning tills dess att modulen stängs av.</li>
+			</ol>
+		    <img src="img/SimonComponent_ColourLegend_swe.png" style="height: 9em; margin: 1em auto; display: block;" alt="Topp: Blå, Vänster: Röd, Höger: Gul, Botten: Grön" />
+
+    <p>Om serienumret innehåller en vokal:<p>
+                        <table class="repeaters-table">
+                <tr>
+            	    <th colspan="2" class="repeaters-spacer"></th>
+                    <th>Röd blinkn.</th>
+                    <th>Blå blinkn.</th>
+                    <th>Grön blinkn.</th>
+                    <th>Gul blinkn.</th>
+                </tr>
+                <tr><th rowspan="3">Knapp&nbsp;att&nbsp;trycka:</th><th>Ingen&nbsp;miss</th><td>Blå</td><td>Röd</td><td>Gul</td><td>Grön</td></tr><th>1&nbsp;miss</th><td>Gul</td><td>Grön</td><td>Blå</td><td>Röd</td></tr><th>2&nbsp;missar</th><td>Grön</td><td>Röd</td><td>Gul</td><td>Blå</td></tr>            </table>
+        
+    <p>Om serienumret <em>inte</em> innehåller en vokal:<p>
+            <table class="repeaters-table">
+                <tr>
+            	    <th colspan="2" class="repeaters-spacer"></th>
+                    <th>Röd blinkn.</th>
+                    <th>Blå blinkn.</th>
+                    <th>Grön blinkn.</th>
+                    <th>Gul blinkn.</th>
+                </tr>
+                <tr><th rowspan="3">Knapp&nbsp;att&nbsp;trycka:</th><th>Ingen&nbsp;miss</th><td>Blå</td><td>Gul</td><td>Grön</td><td>Röd</td></tr><th>1&nbsp;miss</th><td>Röd</td><td>Blå</td><td>Gul</td><td>Grön</td></tr><th>2&nbsp;missar</th><td>Gul</td><td>Grön</td><td>Blå</td><td>Röd</td></tr>            </table>
+
+        </div>
+        <div class="page-footer relative-footer"></div>
+    </div>
+</div>
+
+<div class="section">
+        <div class="page">
+        		<div class="page-header">
+			<span class="page-header-doc-title">Keep Talking and Nobody Explodes v. 1</span>
+			<span class="page-header-section-title">Vilken Kommer Först</span>
+		</div>
+        <div class="page-footer absolute-footer"></div>
+        <div class="page-content">
+    	    <img src="img/WhosOnFirstComponent.svg" class="diagram" />
+            <h2>Gällande Vilken Kommer Först</h2>
+            <p class="flavour-text">Den här manicken är något av en komedisketch, vilket skulle ha varit roligt om den inte vore kopplad till en bomb. Jag ska hålla mig kort, eftersom ord bara försvårar saken.</p>
+		    <ol>
+			    <li>Läs på displayen och använd steg 1 för att avgöra vilken knapptext som skall <u>avläsas</u>.</li>
+			    <li>Med denna knapptext, använd steg 2 för att avgöra vilken knapp som skall <u>tryckas</u>.</li>
+			    <li>Upprepa tills dess att modulen stängs av.</li>
+		    </ol>
+            <h3>Steg 1:</h3>
+			<p>Utgå från displayen, <u>läs</u> sedan knappen enligt tabell och gå vidare till steg 2:</p>
+			<table class="whos-on-first-step1-table">
+			<tr><td><table><tr><th class="whos-on-first-look-at-display" colspan="2">YES</th></tr><tr><td><br /></td><td><br /></td></tr><tr><td class="whos-on-first-look-at"><img src="img/eye-icon.png" alt="Look At" style="height: 1em;" /></td><td><br /></td></tr><tr><td><br /></td><td><br /></td></tr></table></td><td><table><tr><th class="whos-on-first-look-at-display" colspan="2">FIRST</th></tr><tr><td><br /></td><td class="whos-on-first-look-at"><img src="img/eye-icon.png" alt="Look At" style="height: 1em;" /></td></tr><tr><td><br /></td><td><br /></td></tr><tr><td><br /></td><td><br /></td></tr></table></td><td><table><tr><th class="whos-on-first-look-at-display" colspan="2">DISPLAY</th></tr><tr><td><br /></td><td><br /></td></tr><tr><td><br /></td><td><br /></td></tr><tr><td><br /></td><td class="whos-on-first-look-at"><img src="img/eye-icon.png" alt="Look At" style="height: 1em;" /></td></tr></table></td><td><table><tr><th class="whos-on-first-look-at-display" colspan="2">OKAY</th></tr><tr><td><br /></td><td class="whos-on-first-look-at"><img src="img/eye-icon.png" alt="Look At" style="height: 1em;" /></td></tr><tr><td><br /></td><td><br /></td></tr><tr><td><br /></td><td><br /></td></tr></table></td><td><table><tr><th class="whos-on-first-look-at-display" colspan="2">SAYS</th></tr><tr><td><br /></td><td><br /></td></tr><tr><td><br /></td><td><br /></td></tr><tr><td><br /></td><td class="whos-on-first-look-at"><img src="img/eye-icon.png" alt="Look At" style="height: 1em;" /></td></tr></table></td><td><table><tr><th class="whos-on-first-look-at-display" colspan="2">NOTHING</th></tr><tr><td><br /></td><td><br /></td></tr><tr><td class="whos-on-first-look-at"><img src="img/eye-icon.png" alt="Look At" style="height: 1em;" /></td><td><br /></td></tr><tr><td><br /></td><td><br /></td></tr></table></td></tr><tr><td><table><tr><th class="whos-on-first-look-at-display" colspan="2"><br/></th></tr><tr><td><br /></td><td><br /></td></tr><tr><td><br /></td><td><br /></td></tr><tr><td class="whos-on-first-look-at"><img src="img/eye-icon.png" alt="Look At" style="height: 1em;" /></td><td><br /></td></tr></table></td><td><table><tr><th class="whos-on-first-look-at-display" colspan="2">BLANK</th></tr><tr><td><br /></td><td><br /></td></tr><tr><td><br /></td><td class="whos-on-first-look-at"><img src="img/eye-icon.png" alt="Look At" style="height: 1em;" /></td></tr><tr><td><br /></td><td><br /></td></tr></table></td><td><table><tr><th class="whos-on-first-look-at-display" colspan="2">NO</th></tr><tr><td><br /></td><td><br /></td></tr><tr><td><br /></td><td><br /></td></tr><tr><td><br /></td><td class="whos-on-first-look-at"><img src="img/eye-icon.png" alt="Look At" style="height: 1em;" /></td></tr></table></td><td><table><tr><th class="whos-on-first-look-at-display" colspan="2">LED</th></tr><tr><td><br /></td><td><br /></td></tr><tr><td class="whos-on-first-look-at"><img src="img/eye-icon.png" alt="Look At" style="height: 1em;" /></td><td><br /></td></tr><tr><td><br /></td><td><br /></td></tr></table></td><td><table><tr><th class="whos-on-first-look-at-display" colspan="2">LEAD</th></tr><tr><td><br /></td><td><br /></td></tr><tr><td><br /></td><td><br /></td></tr><tr><td><br /></td><td class="whos-on-first-look-at"><img src="img/eye-icon.png" alt="Look At" style="height: 1em;" /></td></tr></table></td><td><table><tr><th class="whos-on-first-look-at-display" colspan="2">READ</th></tr><tr><td><br /></td><td><br /></td></tr><tr><td><br /></td><td class="whos-on-first-look-at"><img src="img/eye-icon.png" alt="Look At" style="height: 1em;" /></td></tr><tr><td><br /></td><td><br /></td></tr></table></td></tr><tr><td><table><tr><th class="whos-on-first-look-at-display" colspan="2">RED</th></tr><tr><td><br /></td><td><br /></td></tr><tr><td><br /></td><td class="whos-on-first-look-at"><img src="img/eye-icon.png" alt="Look At" style="height: 1em;" /></td></tr><tr><td><br /></td><td><br /></td></tr></table></td><td><table><tr><th class="whos-on-first-look-at-display" colspan="2">REED</th></tr><tr><td><br /></td><td><br /></td></tr><tr><td><br /></td><td><br /></td></tr><tr><td class="whos-on-first-look-at"><img src="img/eye-icon.png" alt="Look At" style="height: 1em;" /></td><td><br /></td></tr></table></td><td><table><tr><th class="whos-on-first-look-at-display" colspan="2">LEED</th></tr><tr><td><br /></td><td><br /></td></tr><tr><td><br /></td><td><br /></td></tr><tr><td class="whos-on-first-look-at"><img src="img/eye-icon.png" alt="Look At" style="height: 1em;" /></td><td><br /></td></tr></table></td><td><table><tr><th class="whos-on-first-look-at-display" colspan="2">HOLD ON</th></tr><tr><td><br /></td><td><br /></td></tr><tr><td><br /></td><td><br /></td></tr><tr><td><br /></td><td class="whos-on-first-look-at"><img src="img/eye-icon.png" alt="Look At" style="height: 1em;" /></td></tr></table></td><td><table><tr><th class="whos-on-first-look-at-display" colspan="2">YOU</th></tr><tr><td><br /></td><td><br /></td></tr><tr><td><br /></td><td class="whos-on-first-look-at"><img src="img/eye-icon.png" alt="Look At" style="height: 1em;" /></td></tr><tr><td><br /></td><td><br /></td></tr></table></td><td><table><tr><th class="whos-on-first-look-at-display" colspan="2">YOU ARE</th></tr><tr><td><br /></td><td><br /></td></tr><tr><td><br /></td><td><br /></td></tr><tr><td><br /></td><td class="whos-on-first-look-at"><img src="img/eye-icon.png" alt="Look At" style="height: 1em;" /></td></tr></table></td></tr><tr><td><table><tr><th class="whos-on-first-look-at-display" colspan="2">YOUR</th></tr><tr><td><br /></td><td><br /></td></tr><tr><td><br /></td><td class="whos-on-first-look-at"><img src="img/eye-icon.png" alt="Look At" style="height: 1em;" /></td></tr><tr><td><br /></td><td><br /></td></tr></table></td><td><table><tr><th class="whos-on-first-look-at-display" colspan="2">YOU'RE</th></tr><tr><td><br /></td><td><br /></td></tr><tr><td><br /></td><td class="whos-on-first-look-at"><img src="img/eye-icon.png" alt="Look At" style="height: 1em;" /></td></tr><tr><td><br /></td><td><br /></td></tr></table></td><td><table><tr><th class="whos-on-first-look-at-display" colspan="2">UR</th></tr><tr><td class="whos-on-first-look-at"><img src="img/eye-icon.png" alt="Look At" style="height: 1em;" /></td><td><br /></td></tr><tr><td><br /></td><td><br /></td></tr><tr><td><br /></td><td><br /></td></tr></table></td><td><table><tr><th class="whos-on-first-look-at-display" colspan="2">THERE</th></tr><tr><td><br /></td><td><br /></td></tr><tr><td><br /></td><td><br /></td></tr><tr><td><br /></td><td class="whos-on-first-look-at"><img src="img/eye-icon.png" alt="Look At" style="height: 1em;" /></td></tr></table></td><td><table><tr><th class="whos-on-first-look-at-display" colspan="2">THEY'RE</th></tr><tr><td><br /></td><td><br /></td></tr><tr><td><br /></td><td><br /></td></tr><tr><td class="whos-on-first-look-at"><img src="img/eye-icon.png" alt="Look At" style="height: 1em;" /></td><td><br /></td></tr></table></td><td><table><tr><th class="whos-on-first-look-at-display" colspan="2">THEIR</th></tr><tr><td><br /></td><td><br /></td></tr><tr><td><br /></td><td class="whos-on-first-look-at"><img src="img/eye-icon.png" alt="Look At" style="height: 1em;" /></td></tr><tr><td><br /></td><td><br /></td></tr></table></td></tr><tr><td></td><td><table><tr><th class="whos-on-first-look-at-display" colspan="2">THEY ARE</th></tr><tr><td><br /></td><td><br /></td></tr><tr><td class="whos-on-first-look-at"><img src="img/eye-icon.png" alt="Look At" style="height: 1em;" /></td><td><br /></td></tr><tr><td><br /></td><td><br /></td></tr></table></td><td><table><tr><th class="whos-on-first-look-at-display" colspan="2">SEE</th></tr><tr><td><br /></td><td><br /></td></tr><tr><td><br /></td><td><br /></td></tr><tr><td><br /></td><td class="whos-on-first-look-at"><img src="img/eye-icon.png" alt="Look At" style="height: 1em;" /></td></tr></table></td><td><table><tr><th class="whos-on-first-look-at-display" colspan="2">C</th></tr><tr><td><br /></td><td class="whos-on-first-look-at"><img src="img/eye-icon.png" alt="Look At" style="height: 1em;" /></td></tr><tr><td><br /></td><td><br /></td></tr><tr><td><br /></td><td><br /></td></tr></table></td><td><table><tr><th class="whos-on-first-look-at-display" colspan="2">CEE</th></tr><tr><td><br /></td><td><br /></td></tr><tr><td><br /></td><td><br /></td></tr><tr><td><br /></td><td class="whos-on-first-look-at"><img src="img/eye-icon.png" alt="Look At" style="height: 1em;" /></td></tr></table></td>			</table>
+        </div>
+        <div class="page-footer relative-footer"></div>
+    </div>
+
+    <div class="page">
+        		<div class="page-header">
+			<span class="page-header-doc-title">Keep Talking and Nobody Explodes v. 1</span>
+			<span class="page-header-section-title">Vilken Kommer Först</span>
+		</div>
+        <div class="page-footer absolute-footer"></div>
+        <div class="page-content">
+            <h3>Steg 2:</h3>
+            <p>Utgå från knapptexten från steg 1, sedan <u>tryck</u> på knappen som dyker upp först i den motsvarande listan:</p>
+            <table class="whos-on-first-step2-table">
+            	<tr><th>"READY":</th><td>YES, OKAY, WHAT, MIDDLE, LEFT, PRESS, RIGHT, BLANK, READY, NO, FIRST, UHHH, NOTHING, WAIT</td></tr><tr><th>"FIRST":</th><td>LEFT, OKAY, YES, MIDDLE, NO, RIGHT, NOTHING, UHHH, WAIT, READY, BLANK, WHAT, PRESS, FIRST</td></tr><tr><th>"NO":</th><td>BLANK, UHHH, WAIT, FIRST, WHAT, READY, RIGHT, YES, NOTHING, LEFT, PRESS, OKAY, NO, MIDDLE</td></tr><tr><th>"BLANK":</th><td>WAIT, RIGHT, OKAY, MIDDLE, BLANK, PRESS, READY, NOTHING, NO, WHAT, LEFT, UHHH, YES, FIRST</td></tr><tr><th>"NOTHING":</th><td>UHHH, RIGHT, OKAY, MIDDLE, YES, BLANK, NO, PRESS, LEFT, WHAT, WAIT, FIRST, NOTHING, READY</td></tr><tr><th>"YES":</th><td>OKAY, RIGHT, UHHH, MIDDLE, FIRST, WHAT, PRESS, READY, NOTHING, YES, LEFT, BLANK, NO, WAIT</td></tr><tr><th>"WHAT":</th><td>UHHH, WHAT, LEFT, NOTHING, READY, BLANK, MIDDLE, NO, OKAY, FIRST, WAIT, YES, PRESS, RIGHT</td></tr><tr><th>"UHHH":</th><td>READY, NOTHING, LEFT, WHAT, OKAY, YES, RIGHT, NO, PRESS, BLANK, UHHH, MIDDLE, WAIT, FIRST</td></tr><tr><th>"LEFT":</th><td>RIGHT, LEFT, FIRST, NO, MIDDLE, YES, BLANK, WHAT, UHHH, WAIT, PRESS, READY, OKAY, NOTHING</td></tr><tr><th>"RIGHT":</th><td>YES, NOTHING, READY, PRESS, NO, WAIT, WHAT, RIGHT, MIDDLE, LEFT, UHHH, BLANK, OKAY, FIRST</td></tr><tr><th>"MIDDLE":</th><td>BLANK, READY, OKAY, WHAT, NOTHING, PRESS, NO, WAIT, LEFT, MIDDLE, RIGHT, FIRST, UHHH, YES</td></tr><tr><th>"OKAY":</th><td>MIDDLE, NO, FIRST, YES, UHHH, NOTHING, WAIT, OKAY, LEFT, READY, BLANK, PRESS, WHAT, RIGHT</td></tr><tr><th>"WAIT":</th><td>UHHH, NO, BLANK, OKAY, YES, LEFT, FIRST, PRESS, WHAT, WAIT, NOTHING, READY, RIGHT, MIDDLE</td></tr><tr><th>"PRESS":</th><td>RIGHT, MIDDLE, YES, READY, PRESS, OKAY, NOTHING, UHHH, BLANK, LEFT, FIRST, WHAT, NO, WAIT</td></tr><tr><th>"YOU":</th><td>SURE, YOU ARE, YOUR, YOU'RE, NEXT, UH HUH, UR, HOLD, WHAT?, YOU, UH UH, LIKE, DONE, U</td></tr><tr><th>"YOU ARE":</th><td>YOUR, NEXT, LIKE, UH HUH, WHAT?, DONE, UH UH, HOLD, YOU, U, YOU'RE, SURE, UR, YOU ARE</td></tr><tr><th>"YOUR":</th><td>UH UH, YOU ARE, UH HUH, YOUR, NEXT, UR, SURE, U, YOU'RE, YOU, WHAT?, HOLD, LIKE, DONE</td></tr><tr><th>"YOU'RE":</th><td>YOU, YOU'RE, UR, NEXT, UH UH, YOU ARE, U, YOUR, WHAT?, UH HUH, SURE, DONE, LIKE, HOLD</td></tr><tr><th>"UR":</th><td>DONE, U, UR, UH HUH, WHAT?, SURE, YOUR, HOLD, YOU'RE, LIKE, NEXT, UH UH, YOU ARE, YOU</td></tr><tr><th>"U":</th><td>UH HUH, SURE, NEXT, WHAT?, YOU'RE, UR, UH UH, DONE, U, YOU, LIKE, HOLD, YOU ARE, YOUR</td></tr><tr><th>"UH HUH":</th><td>UH HUH, YOUR, YOU ARE, YOU, DONE, HOLD, UH UH, NEXT, SURE, LIKE, YOU'RE, UR, U, WHAT?</td></tr><tr><th>"UH UH":</th><td>UR, U, YOU ARE, YOU'RE, NEXT, UH UH, DONE, YOU, UH HUH, LIKE, YOUR, SURE, HOLD, WHAT?</td></tr><tr><th>"WHAT?":</th><td>YOU, HOLD, YOU'RE, YOUR, U, DONE, UH UH, LIKE, YOU ARE, UH HUH, UR, NEXT, WHAT?, SURE</td></tr><tr><th>"DONE":</th><td>SURE, UH HUH, NEXT, WHAT?, YOUR, UR, YOU'RE, HOLD, LIKE, YOU, U, YOU ARE, UH UH, DONE</td></tr><tr><th>"NEXT":</th><td>WHAT?, UH HUH, UH UH, YOUR, HOLD, SURE, NEXT, LIKE, DONE, YOU ARE, UR, YOU'RE, U, YOU</td></tr><tr><th>"HOLD":</th><td>YOU ARE, U, DONE, UH UH, YOU, UR, SURE, WHAT?, YOU'RE, NEXT, HOLD, UH HUH, YOUR, LIKE</td></tr><tr><th>"SURE":</th><td>YOU ARE, DONE, LIKE, YOU'RE, YOU, HOLD, UH HUH, UR, SURE, U, WHAT?, NEXT, YOUR, UH UH</td></tr><tr><th>"LIKE":</th><td>YOU'RE, NEXT, U, UR, HOLD, DONE, UH UH, WHAT?, UH HUH, YOU, LIKE, SURE, YOU ARE, YOUR</td></tr>            </table>
+        </div>
+        <div class="page-footer relative-footer"></div>
+    </div>
+</div><div class="section">
+    <div class="page">
+        		<div class="page-header">
+			<span class="page-header-doc-title">Keep Talking and Nobody Explodes v. 1</span>
+			<span class="page-header-section-title">Minne</span>
+		</div>
+        <div class="page-footer absolute-footer"></div>
+        <div class="page-content">
+    	    <img src="img/MemoryComponent.svg" class="diagram" />
+            <h2>Gällande minne</h2>
+		    <p class="flavour-text">Minne är en ömtålig sak, men det är även allt annat när en bomb smäller, så var uppmärksam!</p>
+		    <ul>
+				<li>Tryck på den rätta knappen för att gå vidare till nästa nivå på modulen. Klara av samtliga nivåer för att stänga av modulen.</li>
+			    <li>Felaktig knapptryckning startar om modulen på nivå 1.</li>
+                <li>Knapparnas positioner är ordnade från vänster till höger.</li>
+		    </ul>
+            <div class="memory-rules">
+            	<h4>Nivå 1:</h4><p>Display visar 1: tryck på knappen med andra positionen.<br />Display visar 2: tryck på knappen med andra positionen.<br />Display visar 3: tryck på knappen med tredje positionen.<br />Display visar 4: tryck på knappen med fjärde positionen.<br /></p><h4>Nivå 2:</h4><p>Display visar 1: tryck på knappen märkt 4.<br />Display visar 2: tryck på knappen med samma position som på den under nivå 1.<br />Display visar 3: tryck på knappen med den första positionen.<br />Display visar 4: tryck på knappen med samma position som på den från nivå 1.<br /></p><h4>Nivå 3:</h4><p>Display visar 1: tryck på knappen med samma märkning som på den under nivå 2.<br />Display visar 2: tryck på knappen med samma märkning som på den under nivå 1.<br />Display visar 3: tryck på knappen med den tredje positionen.<br />Display visar 4: tryck på knappen märkt 4.<br /></p><h4>Nivå 4:</h4><p>Display visar 1: tryck på knappen med samma position som på den under nivå 1.<br />Display visar 2: tryck på knappen med den första positionen.<br />Display visar 3: tryck på knappen med samma position som på den under nivå 2.<br />Display visar 4: tryck på knappen med samma position som på den under nivå 2.<br /></p><h4>Nivå 5:</h4><p>Display visar 1: tryck på knappen med samma märkning som på den under nivå 1.<br />Display visar 2: tryck på knappen med samma märkning som på den under nivå 2.<br />Display visar 3: tryck på knappen med samma märkning som på den under nivå 4.<br />Display visar 4: tryck på knappen med samma märkning som på den under nivå 3.<br /></p>            </div>
+        </div>
+        <div class="page-footer relative-footer"></div>
+    </div>
+</div>
+<div class="section">
+    <div class="page morse-code">
+        		<div class="page-header">
+			<span class="page-header-doc-title">Keep Talking and Nobody Explodes v. 1</span>
+			<span class="page-header-section-title">Morsekod</span>
+		</div>
+        <div class="page-footer absolute-footer"></div>
+        <div class="page-content">
+    	    <img src="img/MorseCodeComponent.svg" class="diagram" />
+            <h2>Gällande morsekod</h2>
+		        <p class="flavour-text">En antikverad form av sjökommunikation? Vad kommer härnäst? Det är åtminstone äkta morsekod, så var uppmärksam och du kanske lär dig något.</p>
+				<ul>
+					<li>Tolka signalen från det blinkande ljuset med hjälp av morsekodstabellen för att stava till ett av orden i tabellen till höger.</li>
+					<li>Signalen kommer i en slinga, med en lång paus mellan upprepningarna.</li>
+					<li>När ordet är identifierat, ställ in motsvarande frekvens och tryck på sändningsknappen (TX).</li>
+				</ul>
+			
+		    <img id="morseCodeChart" src="img/MorseCode/International_Morse_Code_swe.png"/>	
+					
+		    <table>
+			    <tr><th>Ord:</th><th>Svara på frekvens:</th></tr>
+			    <tr><td>shell</td><td>3.505 MHz</td></tr><tr><td>halls</td><td>3.515 MHz</td></tr><tr><td>slick</td><td>3.522 MHz</td></tr><tr><td>trick</td><td>3.532 MHz</td></tr><tr><td>boxes</td><td>3.535 MHz</td></tr><tr><td>leaks</td><td>3.542 MHz</td></tr><tr><td>strobe</td><td>3.545 MHz</td></tr><tr><td>bistro</td><td>3.552 MHz</td></tr><tr><td>flick</td><td>3.555 MHz</td></tr><tr><td>bombs</td><td>3.565 MHz</td></tr><tr><td>break</td><td>3.572 MHz</td></tr><tr><td>brick</td><td>3.575 MHz</td></tr><tr><td>steak</td><td>3.582 MHz</td></tr><tr><td>sting</td><td>3.592 MHz</td></tr><tr><td>vector</td><td>3.595 MHz</td></tr><tr><td>beats</td><td>3.600 MHz</td></tr>		    </table>	
+        </div>
+        <div class="page-footer relative-footer"></div>
+    </div>
+</div>
+<div class="section">
+    <div class="page venn-wires">
+        		<div class="page-header">
+			<span class="page-header-doc-title">Keep Talking and Nobody Explodes v. 1</span>
+			<span class="page-header-section-title">Komplicerade Kablar</span>
+		</div>
+        <div class="page-footer absolute-footer"></div>
+        <div class="page-content">
+    	    <img src="img/VennWireComponent.svg" class="diagram" />
+            <h2>Gällande komplicerade kablar</h2>
+		        <p class="flavour-text">Dessa kablar är inte som de andra. De har ränder! Det gör dem helt annorlunda. Den goda nyheten är att vi har hittat en koncis uppsättning instruktioner på hur man hanterar dem! Kanske för koncisa...</p>
+			    <ul>
+				    <li>Titta på varje kabel: det finns en LED-lampa ovanför dem och en plats för en "★"-symbol under dem.</li>
+				    <li>För <b>varje</b> kabel-/LED-/symbol-kombination, använd Venndiagrammet nedan för att avgöra huruvida att kapa eller inte kapa kabeln.</li>
+                    <li>Varje kabel kan vara randig med flera färger.</li>
+			    </ul>
+			
+			
+		    
+		    <div>
+			    <object id="venndiagram" width="100%" height="100%" data="img/gen/venn/venndiagram.svg" type="image/svg+xml"></object>
+		    </div>
+		    <div>
+			    <object width="100%" height="100%" id="vennlegend" data="img/gen/venn/legend_swe.png" type="image/png"></object>
+			    <table id="venntable">
+				    <tr><th>Bokstav</th><th>Instruktion</th></tr>
+				    <tr><td>C</td><td style="text-align:left">Kapa kabeln</td></tr>
+				    <tr><td>D</td><td style="text-align:left">Kapa inte kabeln</td></tr>
+				    <tr><td>S</td><td style="text-align:left">Kapa kabeln om den sista siffran i serienumret är jämn</td></tr>
+				    <tr><td>P</td><td style="text-align:left">Kapa kabeln om bomben har en parallelport</td></tr>
+				    <tr><td>B</td><td style="text-align:left">Kapa kabeln om bomben har två eller fler batterier</td></tr>
+			    </table>
+		    </div>
+		    <div style="clear:both;"/>
+            <p class="appendix-reference">Se Bilaga B för hänvisningar till batteriidentifiering.<br />Se Bilaga C för hänvisningar till portidentifiering.</p>        </div>
+        <div class="page-footer relative-footer"></div>
+    </div>
+</div><div class="section">
+    <div class="page wire-sequence">
+        		<div class="page-header">
+			<span class="page-header-doc-title">Keep Talking and Nobody Explodes v. 1</span>
+			<span class="page-header-section-title">Kabelsekvenser</span>
+		</div>
+        <div class="page-footer absolute-footer"></div>
+        <div class="page-content">
+            <img src="img/WireSequenceComponent.svg" class="diagram" />
+            <h2>Gällande kabelsekvenser</h2>
+            <p class="flavour-text">Det är svårt att säga hur denna mekanism fungerar. Ingenjörskonsten är rätt imponerande, men det borde ha funnits ett enklare sätt att hantera nio kablar.</p>
+			<ul>
+			<li>På denna modul finns det flera paneler med kablar på sig, men endast en panel är synlig åt gången. Byt till nästa panel genom att trycka på ned-knappen och föregående genom att trycka på upp-knappen.</li>
+			<li>Byt inte till nästa panel förrän du är säker på att du har kapat alla nödvändiga kablar på den aktuella panelen.</li>
+			<li>Kapa kablarna enligt tabellen nedan. Kablarnas förekomster är kumulativa över alla panelerna på modulen.</li>
+			</ul>
+            <div style="clear:both"></div>
+            
+            <table class='red-table'><tr><th colspan='2' class='header'>Förekomst av röda kablar</th></tr><tr><th class='first-col'>Förekomst av kabel</th><th class='second-col'>Kapa om kopplad till:</th></tr><tr><td class='first-col'>Första&nbsp;röda förekomsten</td><td class='second-col'>C</td></tr><tr><td class='first-col'>Andra&nbsp;röda förekomsten</td><td class='second-col'>B</td></tr><tr><td class='first-col'>Tredje&nbsp;röda förekomsten</td><td class='second-col'>A</td></tr><tr><td class='first-col'>Fjärde&nbsp;röda förekomsten</td><td class='second-col'>A eller C</td></tr><tr><td class='first-col'>Femte&nbsp;röda förekomsten</td><td class='second-col'>B</td></tr><tr><td class='first-col'>Sjätte&nbsp;röda förekomsten</td><td class='second-col'>A eller C</td></tr><tr><td class='first-col'>Sjunde&nbsp;röda förekomsten</td><td class='second-col'>A, B eller C</td></tr><tr><td class='first-col'>Åttonde&nbsp;röda förekomsten</td><td class='second-col'>A eller B</td></tr><tr><td class='first-col'>Nionde&nbsp;röda förekomsten</td><td class='second-col'>B</td></tr></table><table class='blue-table'><tr><th colspan='2' class='header'>Förekomst av blå kablar</th></tr><tr><th class='first-col'>Förekomst av kabel</th><th class='second-col'>Kapa om kopplad till:</th></tr><tr><td class='first-col'>Första&nbsp;blå förekomsten</td><td class='second-col'>B</td></tr><tr><td class='first-col'>Andra&nbsp;blå förekomsten</td><td class='second-col'>A eller C</td></tr><tr><td class='first-col'>Tredje&nbsp;blå förekomsten</td><td class='second-col'>B</td></tr><tr><td class='first-col'>Fjärde&nbsp;blå förekomsten</td><td class='second-col'>A</td></tr><tr><td class='first-col'>Femte&nbsp;blå förekomsten</td><td class='second-col'>B</td></tr><tr><td class='first-col'>Sjätte&nbsp;blå förekomsten</td><td class='second-col'>B eller C</td></tr><tr><td class='first-col'>Sjunde&nbsp;blå förekomsten</td><td class='second-col'>C</td></tr><tr><td class='first-col'>Åttonde&nbsp;blå förekomsten</td><td class='second-col'>A eller C</td></tr><tr><td class='first-col'>Nionde&nbsp;blå förekomsten</td><td class='second-col'>A</td></tr></table><table class='black-table'><tr><th colspan='2' class='header'>Förekomst av svarta kablar</th></tr><tr><th class='first-col'>Förekomst av kabel</th><th class='second-col'>Kapa omkopplad till:</th></tr><tr><td class='first-col'>Första&nbsp;svarta förekomsten</td><td class='second-col'>A, B eller C</td></tr><tr><td class='first-col'>Andra&nbsp;svarta förekomsten</td><td class='second-col'>A eller C</td></tr><tr><td class='first-col'>Tredje&nbsp;svarta förekomsten</td><td class='second-col'>B</td></tr><tr><td class='first-col'>Fjärde&nbsp;svarta förekomsten</td><td class='second-col'>A eller C</td></tr><tr><td class='first-col'>Femte&nbsp;svarta förekomsten</td><td class='second-col'>B</td></tr><tr><td class='first-col'>Sjätte&nbsp;svarta förekomsten</td><td class='second-col'>B eller C</td></tr><tr><td class='first-col'>Sjunde&nbsp;svarta förekomsten</td><td class='second-col'>A eller B</td></tr><tr><td class='first-col'>Åttonde&nbsp;svarta förekomsten</td><td class='second-col'>C</td></tr><tr><td class='first-col'>Nionde&nbsp;svarta förekomsten</td><td class='second-col'>C</td></tr></table>        </div>
+        <div class="page-footer relative-footer"></div>
+    </div>
+</div><div class="section">
+    <div class="page">
+        		<div class="page-header">
+			<span class="page-header-doc-title">Keep Talking and Nobody Explodes v. 1</span>
+			<span class="page-header-section-title">Labyrinter</span>
+		</div>
+        <div class="page-footer absolute-footer"></div>
+        <div class="page-content">
+    	    <img src="img/MazeComponent.svg" class="diagram" />
+            <h2>Gällande labyrinter</h2>
+            <p class="flavour-text">Det här verkar vara någon sorts labyrint, förmodligen stulen från någon restaurangs brickunderlägg.</p>
+            <ul>
+                <li>Hitta labyrinten med matchande cirkelmarkeringar.</li>
+                <li>Desarmeraren måste navigera det vita ljuset till den röda triangeln med hjälp av pilknapparna.</li>
+                <li><strong>Varning:</strong> Korsta inte linjerna som syns i labyrinten. Dessa är osynliga på bomben.</li>
+		    </ul>
+            <img class="maze" src="img/gen/maze/maze0.svg"/>
+            <img class="maze" src="img/gen/maze/maze1.svg"/>
+            <img class="maze" src="img/gen/maze/maze2.svg"/>
+            <img class="maze" src="img/gen/maze/maze3.svg"/>
+            <img class="maze" src="img/gen/maze/maze4.svg"/>
+            <img class="maze" src="img/gen/maze/maze5.svg"/>
+            <img class="maze" src="img/gen/maze/maze6.svg"/>
+            <img class="maze" src="img/gen/maze/maze7.svg"/>
+		    <img class="maze" src="img/gen/maze/maze8.svg"/>
+        </div>
+        <div class="page-footer relative-footer"></div>
+    </div>
+</div>
+<div class="section">
+    <div class="page">
+        		<div class="page-header">
+			<span class="page-header-doc-title">Keep Talking and Nobody Explodes v. 1</span>
+			<span class="page-header-section-title">Lösenord</span>
+		</div>
+        <div class="page-footer absolute-footer"></div>
+        <div class="page-content">
+    	    <img src="img/PasswordComponent.svg" class="diagram" />
+            <h2>Gällande lösenord</h2>
+            <p class="flavour-text">Som tur är uppfyller inte detta lösenord den statliga standarden på säkerhetskrav: 22 tecken, blandade versaler och gemener, slumpmässiga siffror och utan palindromer över längd 3.</p>
+			<ul>
+				<li>Knapparna över och under varje bokstav bläddrar bland bokstäverna för den positionen.</li>
+				<li>Endast en kombination av de tillgängliga bokstäverna kommer att matcha ett lösenord nedan.</li>
+				<li>Tryck på "Sänd"-knappen (Submit) när det rätta ordet har matats in.</li>
+			</ul>
+		    <table class="password-table">
+		    	<tr><tr><td>about</td><td>after</td><td>again</td><td>below</td><td>could</td></tr><tr><td>every</td><td>first</td><td>found</td><td>great</td><td>house</td></tr><tr><td>large</td><td>learn</td><td>never</td><td>other</td><td>place</td></tr><tr><td>plant</td><td>point</td><td>right</td><td>small</td><td>sound</td></tr><tr><td>spell</td><td>still</td><td>study</td><td>their</td><td>there</td></tr><tr><td>these</td><td>thing</td><td>think</td><td>three</td><td>water</td></tr><tr><td>where</td><td>which</td><td>world</td><td>would</td><td>write</td></tr>            </table>
+        </div>
+        <div class="page-footer relative-footer"></div>
+    </div>
+</div>
+<div class="section">
+    <div class="page section-title">
+        		<div class="page-header">
+			<span class="page-header-doc-title">Keep Talking and Nobody Explodes v. 1</span>
+			<span class="page-header-section-title">Sektion 2: Känsliga Moduler</span>
+		</div>
+        <div class="page-footer absolute-footer"></div>
+        <div class="page-content">
+            <div class="vertical-spacer"></div>
+	        <img src="img/NeedyComponent.svg" class="diagram" />
+			<div class="new-block-formatting-context">
+				<h1>Sektion 2: Känsliga Moduler</h1>
+				<p>Känsliga moduler går inte att stänga av, men utgör en återkommande fara.</p>
+				<p>Känsliga moduler identifieras med hjälp av en liten 2&#8209;siffrig timer som finns längst upp i mitten av modulen. Då man interagerar med bomben kan det hända att de blir aktiverade. När dessa känsliga moduler blivit aktiverade måste man hålla koll på dem regelbundet innan deras timer löpt ut för att undvika att erhålla en miss.</p>
+				<p>Var uppmärksam: känsliga moduler kan när som helst återaktiveras.</p>
+			</div>
+        </div>
+        <div class="page-footer relative-footer"></div>
+    </div>
+</div>
+<div class="section">
+    <div class="page">
+        		<div class="page-header">
+			<span class="page-header-doc-title">Keep Talking and Nobody Explodes v. 1</span>
+			<span class="page-header-section-title">Tryckutsläpp</span>
+		</div>
+        <div class="page-footer absolute-footer"></div>
+        <div class="page-content">
+    	    <img src="img/NeedyVentComponent.svg" class="diagram" />
+            <h2>Gällande tryckutsläpp</h2>
+            <p class="flavour-text">Datorhackande är hårt arbete! Tja, i alla fall vanligtvis. Det här arbetet kan förmodligen utföras av en sån där enkel drickande fågel-leksak som trycker på samma knapp om och om igen.</p>
+			<ul>
+				<li>Svara på datorns frågor genom att trycka "Y" för "Ja" eller "N" för "Nej".</li>
+			</ul>
+        </div>
+        <div class="page-footer relative-footer"></div>
+    </div>
+</div>
+<div class="section">
+    <div class="page">
+        		<div class="page-header">
+			<span class="page-header-doc-title">Keep Talking and Nobody Explodes v. 1</span>
+			<span class="page-header-section-title">Kondensatorurladdning</span>
+		</div>
+        <div class="page-footer absolute-footer"></div>
+        <div class="page-content">
+    	    <img src="img/NeedyDischargeComponent.svg" class="diagram" />
+            <h2>Gällande kondensatorurladdningar</h2>
+            <p class="flavour-text">Jag gissar att det här är bara menat att uppehålla din uppmärksamhet, för annars är det här väldigt uselt elektronikarbete.</p>
+            <ul>
+				<li>Ladda ur kondensatorn innan den överbelastas genom att hålla nere spaken.</li>
+			<ul>
+        </div>
+        <div class="page-footer relative-footer"></div>
+    </div>
+</div>
+<div class="section">
+    <div class="page needy-knob">
+        		<div class="page-header">
+			<span class="page-header-doc-title">Keep Talking and Nobody Explodes v. 1</span>
+			<span class="page-header-section-title">Rattar</span>
+		</div>
+        <div class="page-footer absolute-footer"></div>
+        <div class="page-content">
+    	    <img src="img/NeedyKnobComponent.svg" class="diagram" />
+            <h2>Gällande rattar</h2>
+            <p class="flavour-text">Onödigt komplicerade och oändligt krävande. Tänk om sådan expertis kunde användas för att skapa något annat än djävulska pussel.</p>
+			<ul>
+				<li>Ratten kan vridas till en av fyra olika positioner.</li>
+				<li>Ratten måste vara i rätt position när denna moduls nedräkningstimer når noll.</li>
+				<li>Den rätta positionen kan utläsas utifrån av- och på-lägena på de tolv LED-lamporna.</li>
+				<li>Rattpositionerna är relativa till "UP"-etiketten, som i sig kan roteras.</li>
+			</ul>
+            <h3>Av- och på-konfigurationer för LED-lampor</h3>
+            
+            <h4>Uppåt position:</h4><table style="display: inline-table"><tr><td> </td><td> </td><td>X</td><td> </td><td>X</td><td>X</td></tr><tr><td>X</td><td>X</td><td>X</td><td>X</td><td> </td><td>X</td></tr></table><table style="display: inline-table"><tr><td>X</td><td> </td><td>X</td><td> </td><td>X</td><td> </td></tr><tr><td> </td><td>X</td><td>X</td><td> </td><td>X</td><td>X</td></tr></table><h4>Nedåt position:</h4><table style="display: inline-table"><tr><td> </td><td>X</td><td>X</td><td> </td><td> </td><td>X</td></tr><tr><td>X</td><td>X</td><td>X</td><td>X</td><td> </td><td>X</td></tr></table><table style="display: inline-table"><tr><td>X</td><td> </td><td>X</td><td> </td><td>X</td><td> </td></tr><tr><td> </td><td>X</td><td> </td><td> </td><td> </td><td>X</td></tr></table><h4>Vänster position:</h4><table style="display: inline-table"><tr><td> </td><td> </td><td> </td><td> </td><td>X</td><td> </td></tr><tr><td>X</td><td> </td><td> </td><td>X</td><td>X</td><td>X</td></tr></table><table style="display: inline-table"><tr><td> </td><td> </td><td> </td><td> </td><td>X</td><td> </td></tr><tr><td> </td><td> </td><td> </td><td>X</td><td>X</td><td> </td></tr></table><h4>Höger position:</h4><table style="display: inline-table"><tr><td>X</td><td> </td><td>X</td><td>X</td><td>X</td><td>X</td></tr><tr><td>X</td><td>X</td><td>X</td><td> </td><td>X</td><td> </td></tr></table><table style="display: inline-table"><tr><td>X</td><td> </td><td>X</td><td>X</td><td> </td><td> </td></tr><tr><td>X</td><td>X</td><td>X</td><td> </td><td>X</td><td> </td></tr></table>            <br>
+            <br>
+            <p class="needy-diagram-label">X = Lysande LED</p>
+        </div>
+        <div class="page-footer relative-footer"></div>
+    </div>
+</div>
+<div class="section">
+    <div class="page appendix-indicators">
+        		<div class="page-header">
+			<span class="page-header-doc-title">Keep Talking and Nobody Explodes v. 1</span>
+			<span class="page-header-section-title">Bilaga A</span>
+		</div>
+        <div class="page-footer absolute-footer"></div>
+        <div class="page-content">
+            <h2>Bilaga A: Hänvisningar till indikatoridentifiering</h2>
+            <p>Lysande indikatorer med etiketter kan finnas på sidorna av bombskalet.</p>
+            <img src="img/IndicatorWidget.svg" style="height: 5em; display:block; margin: .6em 0 0;" />
+            <h3>Vanliga indikatorer</h3>
+			<ul>
+                <li>SND</li>
+                <li>CLR</li>
+                <li>CAR</li>
+                <li>IND</li>
+                <li>FRQ</li>
+                <li>SIG</li>
+                <li>NSA</li>
+                <li>MSA</li>
+                <li>TRN</li>
+                <li>BOB</li>
+                <li>FRK</li>
+			</ul>
+        </div>
+        <div class="page-footer relative-footer"></div>
+    </div>
+</div><div class="section">
+    <div class="page appendix-batteries">
+        		<div class="page-header">
+			<span class="page-header-doc-title">Keep Talking and Nobody Explodes v. 1</span>
+			<span class="page-header-section-title">Bilaga B</span>
+		</div>
+        <div class="page-footer absolute-footer"></div>
+        <div class="page-content">
+            <h2>Bilaga B: Hänvisningar till batteriidentifiering</h2>
+            <p>Vanliga batterityper kan finnas inkapslade på sidorna av bombskalet.</p>
+			<table style="margin-top: 1em;">
+				<tr><th>Batteri</th><th>Typ</th></tr>
+				<tr><td><img src="img/appendix-batteries/Battery-AA.svg" style="width: 4.09375em; height: 6.18125em;"></td><td>AA</td></tr> 
+				<tr><td><img src="img/appendix-batteries/Battery-D.svg" style="width: 4.09375em; height: 5.553125em;"></td><td>D</td></tr> 
+			</table>
+        </div>
+        <div class="page-footer relative-footer"></div>
+    </div>
+</div><div class="section">
+    <div class="page appendix-ports">
+        		<div class="page-header">
+			<span class="page-header-doc-title">Keep Talking and Nobody Explodes v. 1</span>
+			<span class="page-header-section-title">Bilaga C</span>
+		</div>
+        <div class="page-footer absolute-footer"></div>
+        <div class="page-content">
+            <h2>Bilaga C: Hänvisningar till portidentifiering</h2>
+            <p>Digitala och analoga portar kan finnas på sidorna av bombskalet.</p>
+			<table>
+				<tr><th>Port</th><th>Namn</th></tr>
+				
+				<tr><td><img src="img/appendix-ports/DVI.svg" style="width: 10.15em;"></td><td>DVI-D</td></tr>	
+				<tr><td><img src="img/appendix-ports/Parallel.svg" style="width: 16.1em;"></td><td>Parallel</td></tr>
+				<tr><td><img src="img/appendix-ports/PS2.svg" style="width: 5.55em;"></td><td>PS/2</td></tr>
+				<tr><td><img src="img/appendix-ports/RJ45.svg" style="width: 5.2em;"></td><td>RJ-45</td></tr>
+				<tr><td><img src="img/appendix-ports/Serial.svg" style="width: 8.35em;"></td><td>Seriell</td></tr>
+				<tr><td><img src="img/appendix-ports/StereoRCA.svg" style="width: 5em;"></td><td>Stereo RCA</td></tr>
+			</table>
+        </div>
+        <div class="page-footer relative-footer"></div>
+    </div>
+</div>    </div>
+
+				<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+			<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
+	    <script src="js/main.js"></script>
+</body>
+</html>
